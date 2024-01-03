@@ -1,14 +1,8 @@
-👉👉 [![Algopat](./image/algopat-logo.png/ "Algopat Logo")](https://algopat.kr/ "Visit Algopat")   
-## 🤖ChatGPT & LangChain을 활용한 알고리즘 소스코드 효율성 분석 서비스🤖  
-  
-## 💡 프로젝트 소개 (배경, 개요)
+![Algopat](./image/algopat-logo.png/ "Algopat Logo")  
 
-알고리즘 문제를 풀다 보면 효율성 측면에서 소홀한 경우가 많습니다.  
-내가 작성한 코드가 시간, 공간 측면으로 효율적인지 코드의 구조와 변수명은 적합한지 알기 어렵습니다.  
-누군가 논리적인 근거로 타당한 가이드라인을 제시해 준다면...
-#### -> 이와 같은 많은 고민을 해결하기 위해 만든, 알고리즘 소스코드 효율성 분석 서비스입니다.  
+Algopat은 AI기반 알고리즘 소스코드 피드백 서비스입니다. 시간, 공간 복잡도와 리팩토링에 대한 피드백을 제공해줍니다.
 
-## ✨ 프로젝트 주요 기술 
+<!-- ## ✨ 프로젝트 주요 기술 
 
 1. 인증/인가
    - Spring Cloud Gateway, Eureka를 이용한 Client-side Discovery pattern 구현
@@ -40,7 +34,7 @@
     - 각 서비스에서 발생하는 로그 메세지를 손쉽게 확인할 수 있는 환경 구축 및 시각화
         - FileBeats를 통해 도커 컨테이너의 필요한 로그 선별
         - 선별된 로그 Logstash를 통해 파싱한 후 Elasticsearch에 저장
-        - 저장된 로그 데이터를 Kibana에서 시각화를 통해 더 쉽게 로그를 확인할 수 있는 환경을 구축했습니다.
+        - 저장된 로그 데이터를 Kibana에서 시각화를 통해 더 쉽게 로그를 확인할 수 있는 환경을 구축했습니다. -->
 
 ## 🛠️ 기술 스택
 
@@ -128,19 +122,9 @@
 </details>
 </div>
 
-## 📆 프로젝트 기간
-
-### 23.4.10 ~ 23.5.19
-
-- 기획 및 설계 : 23.4.10 ~ 23.4.16
-- A / B 테스트 : 23.4.17 ~ 23.4.23 
-- 프로젝트 구현 : 23.4.24 ~ 23.5.14
-- 버그 수정 및 산출물 정리 : 23.5.15 ~ 23.5.19
-
 
 ## 📋 상세 페이지  
-### 크롬 익스텐션
-<img src="./image/detail_extension1.png" height="400px" width="400px" /> <img src="./image/detail_extension2.png" height="400px" width="400px" /> <br>
+
 ### 메인 페이지  
 ![detail1](./image/detail1.gif)  
 ### 코드 분석 결과 페이지  
@@ -150,7 +134,9 @@
 ### 랭킹 상세 페이지  
 ![detail4](./image/detail4.png)  
 ### 마이페이지  
-![detail5](./image/detail5.gif)  
+![detail5](./image/detail5.gif) 
+### 분석 결과 알림 (Chrome Extension)
+<img src="./image/detail_extension1.png" height="400px" width="400px" /> <img src="./image/detail_extension2.png" height="400px" width="400px" /> <br>
 
 
 
@@ -158,17 +144,17 @@
 
 <table>
     <tr>
-        <td height="140px" align="center"> <a href="">
+        <td height="140px" align="center"> 
             <img src="./image/human7.png" height="140px" width="140px" /> <br><br> 😶 김소현 <br>(Front-End) </a> <br></td>
-        <td height="140px" align="center"> <a href="">
+        <td height="140px" align="center"> 
             <img src="./image/human9.png" height="140px" width="140px" /> <br><br> 🙂 박동환 <br>(Front-End) </a> <br></td>
-        <td height="140px" align="center"> <a href="">
+        <td height="140px" align="center"> 
             <img src="./image/human20.png" height="140px" width="140px" /> <br><br> 😆 이연학 <br>(Front-End) </a> <br></td>
-        <td height="140px" align="center"> <a href="">
+        <td height="140px" align="center"> 
             <img src="./image/human10.png" height="140px" width="140px" /> <br><br> 👑 이찬희 <br>(Back-End) </a> <br></td>
-        <td height="140px" align="center"> <a href="">
+        <td height="140px" align="center"> 
             <img src="./image/human21.png" height="140px" width="140px" /> <br><br> 😁 이안채 <br>(Back-End) </a> <br></td>
-		<td height="140px" align="center"> <a href="">
+		<td height="140px" align="center"> 
             <img src="./image/human11.png" height="140px" width="140px" /> <br><br> 😶 최웅렬 <br>(Back-End) </a> <br></td>
     </tr>
     <tr>
@@ -191,13 +177,20 @@
 
 ---
 
-### 📋 ERD 다이어그램
+<!-- ### 📋 ERD 다이어그램
 
 ![ERD](./image/erd.png)
 
----
+--- -->
 
-## 👥 협업 관리  
+### 📆 프로젝트 기간 (23.04.10 ~ 23.05.19)
+
+- 기획 및 설계 : 23.04.10 ~ 23.04.16
+- 프로젝트 구현 : 23.04.17 ~ 23.05.14
+- 버그 수정 및 산출물 정리 : 23.05.15 ~ 23.05.19
+
+
+<!-- ## 👥 협업 관리  
 
 <table>
     <tr>
@@ -211,4 +204,4 @@
             <img src="./image/gitlab1.png" /> <br> <br>깃랩 이슈 <br>
         </td>
     </tr>
-</table>
+</table> -->
